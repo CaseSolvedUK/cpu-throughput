@@ -7,6 +7,8 @@ The idea is:
  - Run a cpu-bound, fixed task and measure the elapsed time. In this case it's the time taken to do a sha512sum of a large block of data from memory. Output sequential measurements to a log over an extended period of time
  - Every munin collection period, calculate the average and maximum measurements, display on a graph, and delete the log
 
+NOTE: This currently only exercises 1 CPU core, so may not be as useful on multi-core machines
+
 ## Dependencies
  - munin
  - bash
