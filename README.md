@@ -16,11 +16,11 @@ The idea is:
  - sha512sum
 
 ## How to use
-1. Clone the repo
+1. Clone the repo in `/root/`
 
 2. Link the `plugin.sh` file to your plugins, for example:
 
-`ln -s /repo/path/plugin.sh /etc/munin/plugins/vps`
+`ln -s /root/cpu-throughput/plugin.sh /etc/munin/plugins/vps`
 
 3. Configure the plugin to run as root (not actually required, but I cloned as root):
 

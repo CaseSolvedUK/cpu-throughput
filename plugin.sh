@@ -6,8 +6,8 @@
 
 # munin plugin to display VPS CPU throughput
 
-file="/root/cputime/elapsed.log"
-tmp="/root/cputime/tmp.log"
+file="/root/cpu-throughput/elapsed.log"
+tmp="/root/cpu-throughput/tmp.log"
 avg="0"
 max="0"
 
