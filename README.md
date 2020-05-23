@@ -1,3 +1,5 @@
+## Deprecated, [see here](https://github.com/casesolved-co-uk/munin-stress-ng)
+
 # cpu-throughput
 Munin plugin for measuring cpu throughput, as a bash shell script
 
